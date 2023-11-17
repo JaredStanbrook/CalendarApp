@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    .title
+        h1 Book Out The "J" Dog
+    .content 
+        #header.grid
+            button(class="selector" onclick='showDates(-1)') &lt;
+            button(class="selector right" onclick='showDates(1)') &gt;
+        #appointment.grid
+    footer
+        button(class="label" onclick='add()') Add!

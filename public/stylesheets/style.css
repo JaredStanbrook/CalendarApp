@@ -1,0 +1,200 @@
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  cursor: default;
+  overflow-x: hidden;
+}
+/* Button CSS */
+.label {
+  padding:15px 0px 15px 0px;
+  width: inherit;
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+.label:hover, .label:active {
+    background-color: #daa570;
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 0.1s;
+}
+.button {
+  padding:15px 0px 15px 0px;
+  width: inherit;
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+.buttonHeading {
+  padding:10px 0px 10px 0px;
+  width: inherit;
+  appearance: none;
+  box-sizing: border-box;
+  color: #24292E;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+.active, .button:hover {
+  background-color: #e58d35;
+  text-decoration: none;
+  color: #fff;
+  transition-duration: 0.1s;
+}
+.button:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+.button:focus {
+  outline: 2px transparent;
+}
+
+.button:before {
+  display: none;
+}
+
+.button:-webkit-details-marker {
+  display: none;
+}
+.buttonWrapper {
+  text-align:center;
+  display:inline-block;
+  margin: 15px;
+  width: 150px;
+  appearance: none;
+}
+/* End Button CSS */
+.grid {
+  position: relative;
+  margin: 10px auto;
+  padding-top: 40px;
+  height: fit-content;
+  width: 720px;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  overflow: hidden;
+}
+#header {
+  padding-top: 0;
+}
+.title {
+  position: relative;
+  margin: 10px auto;
+  padding: 15px 0;
+  width: 720px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.row{
+  display:block;
+  box-sizing: border-box;
+  min-height: 50px;
+}
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background: #fff;
+}
+footer {
+  position: relative;
+  display: flex;
+  height: fit-content;
+  color: black;
+}
+ul { 
+  display: flex; 
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden; 
+}
+li { 
+  display: block; 
+  list-style: none; 
+}
+.selector {
+  position: absolute;
+}
+.right {
+  right: 0;
+  float: right;
+}
+h1 {
+  font-size: 2.5em;
+  color: #000;
+  margin: 0;
+  text-align: center;
+}
+@media (min-width: 419px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 1430px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #2128bd;
+}
+
+::selection {
+  color: #fff;
+  background: #2128bd;
+}
